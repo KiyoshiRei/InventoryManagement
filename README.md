@@ -1,2 +1,2 @@
 # InventoryManagement
-Inventory Management College project
+Inventory Management Software College project (Using Flask)
