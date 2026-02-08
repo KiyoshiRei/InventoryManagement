@@ -1,4 +1,5 @@
-.center{
+.center
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,6 +7,30 @@
     height: 400px;
 }
 
-.center input{
+.center input
+{
     width: 250px;
 }
+
+body 
+        {
+            font-family: Arial, sans-serif;
+        }
+
+        header 
+        {
+            text-align: center;
+        }
+
+        .center-box 
+        {
+            width: 300px;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        .center-box input 
+        {
+            width: 100%;
+            padding: 8px;
+        }

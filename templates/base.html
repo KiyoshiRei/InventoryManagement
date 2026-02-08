@@ -2,12 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventory Management Software</title>
-    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}"
-    {% block head %} {% endblock %}
+    <title>{% block title %}Inventory System{% endblock %}</title>
+
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+        }
+
+        .center-box 
+        {
+            width: 300px;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        .center-box input 
+        {
+            width: 100%;
+            padding: 8px;
+        }
+
+        .center-box button 
+        {
+            padding: 8px 20px;
+        }
+    </style>
 </head>
 <body>
-    {% block body %} {% endblock %}
+
+<header>
+    <meta charset="UTF-8">
+    <h1>Inventory Management System</h1>
+    <hr>
+
+    <style>
+       
+
+        header 
+        {
+            text-align: center;
+        }
+
+    </style>
+
+</header>
+
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
+
 </body>
 </html>
