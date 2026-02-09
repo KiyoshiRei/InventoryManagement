@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     height: 400px;
+    color: green;
 }
 
 .center input
@@ -34,3 +35,6 @@ body
             width: 100%;
             padding: 8px;
         }
+body{
+    background-color: lightblue;
+}
